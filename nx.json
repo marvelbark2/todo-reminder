@@ -31,5 +31,21 @@
       }
     ]
   },
-  "projects": {}
+  "projects": {
+    "webapp": {
+      "tags": []
+    },
+    "webapp-e2e": {
+      "tags": [],
+      "implicitDependencies": [
+        "webapp"
+      ]
+    },
+    "api": {
+      "tags": []
+    }
+  },
+  "plugins": [
+    "@nxrocks/nx-spring-boot"
+  ]
 }
